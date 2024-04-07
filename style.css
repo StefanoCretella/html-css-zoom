@@ -1,0 +1,153 @@
+/* INIZIO CORPI DELLA PAGINA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 50px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+main{
+    height: calc(100vh - 125px);
+    overflow-y: auto;
+}
+
+footer{
+    background-color: rgba(34,34,34,255);
+    height: 75px;
+}
+
+/* FINE CORPI DELLA PAGINA*/
+
+/* INIZIO HEADER */
+
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-7{
+    width: calc(100% / 7);
+}
+
+.content{
+    padding: 0px 5px 10px 0px;
+    position: relative;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.user{
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    background-color: grey;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+.speaker-view{
+    color: white;
+    background-color: white;
+    padding-top: 15px;
+}
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* FINE FOOTER */
+.footer-content{
+    width: 575px;
+    height: 75px;
+}
+
+.fa-microphone{
+    font-size: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footer-left-text{
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-size: 18px;
+    color: white;
+}
+
+.fa-angle-up{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.fa-video{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.footer-right-text{
+    padding-left: 90px;
+    color: white;
+}
+
+.footer-center{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.fa-center{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.footer-center-2{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.footer-right-text-2{
+    font-size: 12px;
+    color: white;
+}
+
+.meeting{
+    color: red;
+    padding-top: 30px;
+    padding-bottom: 27px;
+    padding-right: 15px;
+    text-align: right;
+    background-color: rgba(74, 74, 74, 255);
+    margin-left: 450px;
+}
